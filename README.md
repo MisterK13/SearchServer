@@ -13,14 +13,7 @@
 
 ### Требования
 - Компилятор с поддержкой C++20 (GCC 11+, Clang 14+, MSVC 2022)
-- CMake 3.15+ (опционально)
-
-### Компиляция
-
-```bash
-# Клонирование репозитория
-git clone https://github.com/yourusername/SearchServer.git
-cd SearchServer
+- CMake 3.15+ 
 
 # Компиляция (ручная)
 g++ -std=c++20 -pthread -O2 \
