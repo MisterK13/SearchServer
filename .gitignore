@@ -1,3 +1,4 @@
+# Ваш существующий .gitignore
 # Prerequisites
 *.d
 
@@ -30,3 +31,17 @@
 *.exe
 *.out
 *.app
+
+# IDE
+.vscode/
+.idea/
+
+# Debugging
+*.gcda
+*.gcno
+*.profraw
+
+# Assembly
+build/
+Debug/
+Release/
