@@ -15,11 +15,11 @@
 - Компилятор с поддержкой C++20 (GCC 11+, Clang 14+, MSVC 2022)
 - CMake 3.15+ 
 
-# Компиляция (ручная)
+### Компиляция (ручная)
 g++ -std=c++20 -pthread -O2 \
     src/*.cpp \
     examples/main.cpp \
     -o search_server.exe
 
-# Запуск
+### Запуск
 ./search_server.exe
